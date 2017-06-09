@@ -59,7 +59,7 @@ public class BowlingGame {
 			
 		}
 		
-		System.out.println(score);
+		//System.out.println(score);
 		
 		return score;
 	}
