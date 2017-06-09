@@ -7,3 +7,6 @@ RefactoringAction 1497031016276 TestBowling.java RENAME test()=>void testIs() ME
 RefactoringAction 1497031018291 TestBowling.java RENAME testIs()=>void testIf() METHOD
 RefactoringAction 1497031022307 TestBowling.java RENAME testIf()=>void testIfStrike() METHOD
 EditAction 1497031073654 TestBowling.java 214 1 2 1
+UnitTestCaseAction 1497031082744 TestBowling.java FAIL
+UnitTestSessionAction 1497031082746 TestBowling.java FAIL
+EditAction 1497031113179 Frame.java 705 6 8 0
