@@ -60,6 +60,19 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void testGame4() {
+		
+		BowlingGame game=new BowlingGame();
+		Frame frame1=new Frame(10,0);
+		game.addFrame(frame1);
+		game.setBonus(5, 2);
+		assertEquals(17,game.score());
+		
+	}
+	
+	
+	
 	
 	
 
