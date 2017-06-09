@@ -96,3 +96,6 @@ UnitTestSessionAction 1497033234873 TestBowling.java FAIL
 RefactoringAction 1497033297165 TestBowling.java ADD void testGame4()/2 METHOD
 RefactoringAction 1497033299681 TestBowling.java RENAME testGame4()/2=>void testGame5() METHOD
 EditAction 1497033326017 TestBowling.java 1730 8 37 8
+UnitTestCaseAction 1497033339625 TestBowling.java FAIL
+UnitTestSessionAction 1497033339627 TestBowling.java FAIL
+EditAction 1497033407078 BowlingGame.java 1359 4 6 0
