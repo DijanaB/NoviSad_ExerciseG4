@@ -32,6 +32,6 @@ public class BowlingGame {
 		}
 		
 		
-		return 0;
+		return score;
 	}
 }
