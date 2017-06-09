@@ -39,11 +39,13 @@ public class BowlingGame {
 				if(okidac==true)
 				{
 				score+=ukupanBonus+frames.get(i).score();
-				}
+				}else{
+					
 				okidac=false;
 				
 				score+= frames.get(i).score()+frames.get(i+1).getFirstThrow() ;
 				
+				}
 			}else{
 			
 				score=score+frames.get(i).score();
