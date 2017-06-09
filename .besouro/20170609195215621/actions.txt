@@ -136,3 +136,8 @@ EditAction 1497034713029 BowlingGame.java 1631 4 5 0
 UnitTestCaseAction 1497034734649 TestBowling.java FAIL
 UnitTestSessionAction 1497034734650 TestBowling.java FAIL
 EditAction 1497034755954 BowlingGame.java 1565 4 5 0
+UnitTestCaseAction 1497034766839 TestBowling.java FAIL
+UnitTestSessionAction 1497034766841 TestBowling.java FAIL
+RefactoringAction 1497034789046 BowlingGame.java ADD int broj FIELD
+RefactoringAction 1497034790054 BowlingGame.java RENAME broj=>int brojac FIELD
+EditAction 1497034842470 BowlingGame.java 1654 4 6 0

@@ -11,18 +11,20 @@ public class BowlingGame {
 	private Frame bonus;
 	private int ukupanBonus;
 	private boolean okidac=false;
+	private int brojac=0;
 	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		frames.add(frame);
+		brojac++;
 	}
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		
-		if(frames.size()==9)
+		if(brojac==10)
 		{
 			bonus.setFirstThrow(firstThrow);
 			bonus.setSecondThrow(secondThrow);
@@ -58,6 +60,9 @@ public class BowlingGame {
 				score+=frames.get(i).score()+frames.get(i+1).score();
 				//System.out.println(score+" iz strika");
 				
+			}else if(brojac==10)
+			{
+				score+=bonus.score();
 			}
 			
 			else{
