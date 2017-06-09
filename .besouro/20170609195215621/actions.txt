@@ -66,3 +66,10 @@ UnitTestSessionAction 1497032105497 TestBowling.java FAIL
 RefactoringAction 1497032160645 BowlingGame.java ADD int bonus/2 FIELD
 RefactoringAction 1497032168163 BowlingGame.java RENAME bonus/2=>int ukupanBonus FIELD
 EditAction 1497032383503 BowlingGame.java 992 4 5 0
+UnitTestCaseAction 1497032393055 TestBowling.java OK
+UnitTestSessionAction 1497032393057 TestBowling.java OK
+RefactoringAction 1497032400984 TestBowling.java ADD void testGame2()/2 METHOD
+RefactoringAction 1497032404998 TestBowling.java RENAME testGame2()/2=>void testGame3() METHOD
+RefactoringAction 1497032409012 TestBowling.java RENAME testGame2()=>void testGame2Spare() METHOD
+RefactoringAction 1497032412027 TestBowling.java RENAME testGame3()=>void testGame3Strike() METHOD
+EditAction 1497032428632 TestBowling.java 1070 6 21 6

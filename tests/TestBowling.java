@@ -39,13 +39,24 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testGame2() {
+	public void testGame2Spare() {
 		
 		BowlingGame game=new BowlingGame();
 		Frame frame1=new Frame(6,4);
 		game.addFrame(frame1);
 		game.setBonus(5, 0);
 		assertEquals(15,game.score());
+		
+	}
+	
+	@Test
+	public void testGame3Strike() {
+		
+		BowlingGame game=new BowlingGame();
+		Frame frame1=new Frame(10,0);
+		game.addFrame(frame1);
+		game.setBonus(5, 2);
+		assertEquals(17,game.score());
 		
 	}
 	
