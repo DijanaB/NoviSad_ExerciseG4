@@ -75,6 +75,7 @@ public class BowlingGame {
 		{
 			score+=bonus.score();
 		}
+		poslednjiBonus=false;
 		
 		//System.out.println(score);
 		
