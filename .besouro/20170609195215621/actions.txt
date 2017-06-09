@@ -1,3 +1,9 @@
 FileOpenedAction 1497030736191 Frame.java 671 6 7 0
 FileOpenedAction 1497030968210 BowlingException.java 58 0 0 0
 EditAction 1497030982512 BowlingException.java 61 0 0 0
+UnitTestCaseAction 1497030991662 TestBowling.java FAIL
+UnitTestSessionAction 1497030991667 TestBowling.java FAIL
+RefactoringAction 1497031016276 TestBowling.java RENAME test()=>void testIs() METHOD
+RefactoringAction 1497031018291 TestBowling.java RENAME testIs()=>void testIf() METHOD
+RefactoringAction 1497031022307 TestBowling.java RENAME testIf()=>void testIfStrike() METHOD
+EditAction 1497031073654 TestBowling.java 214 1 2 1
