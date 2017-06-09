@@ -68,10 +68,7 @@ public class BowlingGame {
 			}
 			
 		}
-		if(brojac==10)
-		{
-			score+=bonus.score();
-		}
+		
 		
 		//System.out.println(score);
 		

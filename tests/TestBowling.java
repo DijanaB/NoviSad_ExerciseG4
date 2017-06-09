@@ -113,7 +113,7 @@ public class TestBowling {
 		Frame frame9=new Frame(10,0);	
 		game.addFrame(frame9);	
 		Frame frame10=new Frame(2,8);	
-		game.addFrame(frame3);
+		game.addFrame(frame10);
 		game.setBonus(6, 0);
 		assertEquals(133,game.score());
 		
