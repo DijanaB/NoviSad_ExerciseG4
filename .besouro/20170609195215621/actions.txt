@@ -121,3 +121,14 @@ EditAction 1497033968707 Frame.java 763 6 9 0
 UnitTestCaseAction 1497033982918 TestBowling.java FAIL
 UnitTestSessionAction 1497033982920 TestBowling.java FAIL
 EditAction 1497034024898 BowlingGame.java 1438 4 6 0
+RefactoringAction 1497034052458 TestBowling.java ADD void testGame5()/2 METHOD
+RefactoringAction 1497034058974 TestBowling.java RENAME testGame5()/2=>void testGame6() METHOD
+UnitTestCaseAction 1497034405913 TestBowling.java FAIL
+UnitTestSessionAction 1497034405915 TestBowling.java FAIL
+RefactoringAction 1497034521908 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1497034521910 Frame.java ADD int getSecondThrow()/2 METHOD
+RefactoringAction 1497034525418 Frame.java RENAME getFirstThrow()/2=>int setFirstThrow() METHOD
+RefactoringAction 1497034542457 Frame.java RENAME setFirstThrow()=>void setFirstThrow(int) METHOD
+RefactoringAction 1497034554000 Frame.java RENAME getSecondThrow()/2=>int setSecondThrow() METHOD
+RefactoringAction 1497034567542 Frame.java RENAME setSecondThrow()=>void setSecondThrow(int) METHOD
+EditAction 1497034578720 Frame.java 934 8 11 0
