@@ -28,3 +28,15 @@ EditAction 1497031254181 TestBowling.java 454 3 7 3
 UnitTestCaseAction 1497031264850 TestBowling.java FAIL
 UnitTestSessionAction 1497031264852 TestBowling.java FAIL
 EditAction 1497031286371 Frame.java 745 6 9 0
+UnitTestCaseAction 1497031300276 TestBowling.java OK
+UnitTestSessionAction 1497031300279 TestBowling.java OK
+RefactoringAction 1497031549288 TestBowling.java ADD Frame frame FIELD
+RefactoringAction 1497031551303 TestBowling.java REMOVE frame FIELD
+RefactoringAction 1497031554822 TestBowling.java ADD void testScore()/2 METHOD
+RefactoringAction 1497031560350 TestBowling.java RENAME testScore()/2=>void testBowling() METHOD
+RefactoringAction 1497031561359 TestBowling.java RENAME testBowling()=>void testBowlingSc() METHOD
+RefactoringAction 1497031562385 TestBowling.java RENAME testBowlingSc()=>void testBowling() METHOD
+RefactoringAction 1497031563398 TestBowling.java RENAME testBowling()=>void testBowling1() METHOD
+RefactoringAction 1497031565911 TestBowling.java RENAME testBowling1()=>void testGa1() METHOD
+RefactoringAction 1497031566928 TestBowling.java RENAME testGa1()=>void testGame1() METHOD
+EditAction 1497031643127 TestBowling.java 640 4 11 4
