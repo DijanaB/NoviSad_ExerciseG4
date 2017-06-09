@@ -30,8 +30,8 @@ public class BowlingGame {
 		{
 			score=score+frames.get(i).score();
 			
+			
 		}
-		System.out.println(score);
 		
 		
 		return score;
