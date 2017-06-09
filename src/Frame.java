@@ -28,7 +28,6 @@ public class Frame {
 		{
 			return true;
 		}
-		
 		return false;
 	}
 	
