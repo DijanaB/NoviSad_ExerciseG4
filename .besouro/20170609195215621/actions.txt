@@ -160,3 +160,5 @@ RefactoringAction 1497035189668 BowlingException.java RENAME BowlingGameE(String
 RefactoringAction 1497035195688 BowlingException.java RENAME BowlingGameE(String)=>void BowlingGameException(String) METHOD
 RefactoringAction 1497035201203 BowlingException.java RENAME BowlingGameException(String)=>BowlingException(String) METHOD
 EditAction 1497035219524 BowlingException.java 130 1 1 0
+RefactoringAction 1497035260626 BowlingGame.java ADD boolean poslednjiBonus FIELD
+EditAction 1497035299353 BowlingGame.java 1729 4 7 0

@@ -12,6 +12,7 @@ public class BowlingGame {
 	private int ukupanBonus;
 	private boolean okidac=false;
 	private int brojac=0;
+	private boolean poslednjiBonus=false;
 	
 	public BowlingGame(){}
 	
@@ -28,6 +29,7 @@ public class BowlingGame {
 		{
 			bonus.setFirstThrow(firstThrow);
 			bonus.setSecondThrow(secondThrow);
+			poslednjiBonus=true;
 		}
 		else{
 			
@@ -69,6 +71,10 @@ public class BowlingGame {
 			
 		}
 		
+		if(poslednjiBonus==true)
+		{
+			score+=bonus.score();
+		}
 		
 		//System.out.println(score);
 		
