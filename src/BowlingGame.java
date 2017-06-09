@@ -49,7 +49,7 @@ public class BowlingGame {
 			}else if(frames.get(i).isStrike() && i != frames.size()-1){
 				
 				score+=frames.get(i).score()+frames.get(i+1).score();
-				System.out.println(score+" iz strika");
+				//System.out.println(score+" iz strika");
 				
 			}
 			
