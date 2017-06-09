@@ -38,6 +38,19 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void testGame2() {
+		
+		BowlingGame game=new BowlingGame();
+		Frame frame1=new Frame(6,4);
+		game.addFrame(frame1);
+		game.setBonus(5, 0);
+		assertEquals(15,game.score());
+		
+	}
+	
+	
+	
 
 
 }
