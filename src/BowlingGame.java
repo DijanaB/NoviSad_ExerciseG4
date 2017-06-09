@@ -10,6 +10,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private int ukupanBonus;
+	private boolean okidac=false;
 	
 	public BowlingGame(){}
 	
@@ -22,6 +23,7 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		
 		ukupanBonus=firstThrow+secondThrow;
+		okidac=true;
 		
 		
 	}
@@ -34,7 +36,13 @@ public class BowlingGame {
 		{
 			if(frames.get(i).isSpare() && i != frames.size()-1)
 			{
-				score=ukupanBonus+frames.get(i).score();
+				if(okidac==true)
+				{
+				score+=ukupanBonus+frames.get(i).score();
+				}
+				okidac=false;
+				
+				score+= frames.get(i).score()+frames.get(i+1).getFirstThrow() ;
 				
 			}else{
 			

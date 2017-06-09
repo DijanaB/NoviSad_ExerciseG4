@@ -83,3 +83,6 @@ EditAction 1497032870526 TestBowling.java 1401 7 29 7
 UnitTestCaseAction 1497032882409 TestBowling.java FAIL
 UnitTestSessionAction 1497032882411 TestBowling.java FAIL
 EditAction 1497033037969 BowlingGame.java 1016 4 5 0
+RefactoringAction 1497033079225 BowlingGame.java ADD boolean okida FIELD
+RefactoringAction 1497033085253 BowlingGame.java RENAME okida=>boolean okidac FIELD
+EditAction 1497033154137 BowlingGame.java 1195 4 6 0
