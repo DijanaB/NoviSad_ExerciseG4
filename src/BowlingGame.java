@@ -60,9 +60,6 @@ public class BowlingGame {
 				score+=frames.get(i).score()+frames.get(i+1).score();
 				//System.out.println(score+" iz strika");
 				
-			}else if(brojac==10)
-			{
-				score+=bonus.score();
 			}
 			
 			else{
@@ -70,6 +67,10 @@ public class BowlingGame {
 				score=score+frames.get(i).score();
 			}
 			
+		}
+		if(brojac==10)
+		{
+			score+=bonus.score();
 		}
 		
 		//System.out.println(score);
