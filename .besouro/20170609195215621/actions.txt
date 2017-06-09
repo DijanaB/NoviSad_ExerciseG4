@@ -17,3 +17,6 @@ RefactoringAction 1497031137600 TestBowling.java ADD void test() METHOD
 RefactoringAction 1497031139610 TestBowling.java RENAME test()=>void testIf() METHOD
 RefactoringAction 1497031141125 TestBowling.java RENAME testIf()=>void testIfSpare() METHOD
 EditAction 1497031165475 TestBowling.java 326 2 4 2
+UnitTestCaseAction 1497031175819 TestBowling.java FAIL
+UnitTestSessionAction 1497031175820 TestBowling.java FAIL
+EditAction 1497031201863 Frame.java 743 6 9 0
