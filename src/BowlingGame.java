@@ -22,9 +22,16 @@ public class BowlingGame {
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		
-		ukupanBonus=firstThrow+secondThrow;
-		okidac=true;
-		
+		if(frames.size()==9)
+		{
+			bonus.setFirstThrow(firstThrow);
+			bonus.setSecondThrow(secondThrow);
+		}
+		else{
+			
+			ukupanBonus=firstThrow+secondThrow;
+			okidac=true;
+		}
 		
 	}
 	
@@ -51,6 +58,9 @@ public class BowlingGame {
 				score+=frames.get(i).score()+frames.get(i+1).score();
 				//System.out.println(score+" iz strika");
 				
+			}else if(i==frames.size()-1)
+			{
+				score+=bonus.score();
 			}
 			
 			else{

@@ -132,3 +132,4 @@ RefactoringAction 1497034542457 Frame.java RENAME setFirstThrow()=>void setFirst
 RefactoringAction 1497034554000 Frame.java RENAME getSecondThrow()/2=>int setSecondThrow() METHOD
 RefactoringAction 1497034567542 Frame.java RENAME setSecondThrow()=>void setSecondThrow(int) METHOD
 EditAction 1497034578720 Frame.java 934 8 11 0
+EditAction 1497034713029 BowlingGame.java 1631 4 5 0
