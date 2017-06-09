@@ -75,6 +75,22 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void testGame5() {
+		
+		BowlingGame game=new BowlingGame();
+		Frame frame1=new Frame(1,5); //6
+		game.addFrame(frame1);
+		Frame frame2=new Frame(10,0);	//10+8
+		game.addFrame(frame2);
+		Frame frame3=new Frame(1,7);	//8
+		game.addFrame(frame3);	
+		//14+18
+		assertEquals(32,game.score());
+		
+	}
+	
+	
 	
 	
 	
