@@ -32,7 +32,7 @@ public class BowlingGame {
 		int score=0;
 		for(int i=0;i<frames.size();i++)
 		{
-			if(frames.get(i).isSpare())
+			if(frames.get(i).isSpare() && i != frames.size()-1)
 			{
 				score=ukupanBonus+frames.get(i).score();
 				
